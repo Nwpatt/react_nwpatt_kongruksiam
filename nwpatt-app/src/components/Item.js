@@ -1,11 +1,11 @@
 import './Transaction.css'
 
-const Item =(props)=> {
-    return (
-      <div>   
-        <li>{props.title}<span>{props.amount}</span></li>
-      </div>
-    );
+const Item =({title,amount})=> {
+  return (
+    <div>   
+      <li>{title}<span>{amount}</span></li>
+    </div>
+  );
 }
 
 export default Item
